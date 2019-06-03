@@ -5,7 +5,7 @@ export default {
       options: {
         instances: [
           {
-            instanceUrl: '<previewInstanceUrl>',
+            instanceUrl: 'https://sanity-gatsby-blog-6-3-4782856747.gtsb.io/',
           }
         ]
       }

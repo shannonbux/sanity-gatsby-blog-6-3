@@ -1,11 +1,11 @@
 export default {
   widgets: [
-     {
+    {
       name: 'gatsby',
       options: {
         instances: [
           {
-            instanceUrl: 'https://sanity-gatsby-blog-6-3-4782856747.gtsb.io/',
+            instanceUrl: 'https://sanity-gatsby-blog-6-3-4782856747.gtsb.io/'
           }
         ]
       }
@@ -16,7 +16,7 @@ export default {
         templateRepoId: 'sanity-io/sanity-template-gatsby-blog'
       }
     },
-    {name: 'structure-menu'},
+    { name: 'structure-menu' },
     {
       name: 'project-info',
       options: {
@@ -49,15 +49,19 @@ export default {
             value: 'https://github.com/shannonbux/sanity-gatsby-blog-6-3',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://sanity-gatsby-blog-6-3.netlify.com', category: 'apps'}
+          {
+            title: 'Frontend',
+            value: 'https://sanity-gatsby-blog-6-3.netlify.com',
+            category: 'apps'
+          }
         ]
       }
     },
-    {name: 'project-users', layout: {height: 'auto'}},
+    { name: 'project-users', layout: { height: 'auto' } },
     {
       name: 'document-list',
-      options: {title: 'Recent blog posts', order: '_createdAt desc', types: ['post']},
-      layout: {width: 'medium'}
+      options: { title: 'Recent blog posts', order: '_createdAt desc', types: ['post'] },
+      layout: { width: 'medium' }
     }
   ]
 }
